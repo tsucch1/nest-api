@@ -3,13 +3,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class TargetService {
-  private readonly hobby:string ='fashion';
-  private readonly favorite_number:number = 333;
-  
-  gethobbyData()  {
+  private readonly hobby: string = '旅行';
+  private readonly favorite_number: number = 14;
+
+  gethobbyData() {
     return {
       hobby: this.hobby,
-      favorite_number:this.favorite_number,
+      favorite_number: this.favorite_number,
     };
   }
 }

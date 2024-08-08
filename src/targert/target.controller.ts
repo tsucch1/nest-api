@@ -5,7 +5,7 @@ import { TargetService } from './target.service';
 export class TargetController {
   constructor(private readonly targetService: TargetService) {}
 
-  @Get('20240722')
+  @Get('20240808')
   gethobbyData() {
     return this.targetService.gethobbyData();
   }
